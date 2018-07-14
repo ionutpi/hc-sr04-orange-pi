@@ -10,7 +10,7 @@ gpio.init()
 gpio.setcfg(port.PC4, gpio.OUTPUT)
 gpio.setcfg(port.PC7, gpio.INPUT)
 
-#
+#set trig to low
 gpio.output(port.PC4, gpio.LOW)
 sleep(0.5)
 
